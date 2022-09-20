@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+  }
+  body {
+    margin: 0;
+    font-size: 1.2em;
+    color: rgb(15, 36, 16);
+    padding-top: 50px;
+    font-family: 'Yeseva One', cursive;
+    background-color: rgb(224, 230, 224);
+  }
+  
+  /*nav styling starts here*/
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 50px;
+  }
+  .icon {
+    display: none;
+    cursor: pointer;
+  }
+  .icon div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(15, 36, 16);
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  .topnav ul   {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+   overflow-x: auto;
+  }
+  .topnav {
+    height: 100%;
+  }
+  
+  .topnav li {
+    display: inline-block;
+    height: 100%;
+  }
+  .topnav a:link,
+  .topnav a:visited {
+    color: rgb(15, 36, 16);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .topnav a:hover
+    {
+    background-color: rgb(81, 157, 105);
+    color: white;
+  }
+
+  .logo {
+    margin: 5px 50px 10px 50px;
+    padding-top: 50px;
+  }
+  .logo a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  
+  /*nav styling ends here*/
+  
+  /*header starts*/
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 40px auto;
+    padding: 0 60px;
+    max-width: 1400px;
+    background-color: white;
+  }
+  header > div {
+    flex: 1;
+  }
+    .lola img {
+       display: block;
+       margin: auto;
+       width: 50%;
+    }
+
+  
+  #main-photo img {
+    width: 100%;
+    border-radius: 20px;
+    max-height: 700px;
+    object-fit: cover;
+  }
+#greeting {
+    margin-right: 20px;
+  }
+  #greeting h2 {
+    font-size: 1.6em;
+    font-weight: bolder;
+    margin-top: 0;
+  }
+  #greeting p {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+
+  #projects {
+    margin: 40px;
+  }
+  #projects h2 {
+    font-size: 2.0em;
+  }
+  .page {
+    display: flex;
+    border: 1px solid rgb(147, 149, 147);
+    border-radius: 5px;
+    margin: 30px;
+  }
+    
+  .business { 
+    margin-left: 100px;
+    p {
+    font-size: 20px;
+    line-height: 2.0;
+    padding: 50px;
+  }
+  span {
+    background-color: rgb(177, 208, 179);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50px;
+  }
+}
+#page1 img:hover{
+  transform: scale(1.1);
+}
+.card {
+  margin-left: 100px;
+  p {
+    font-size: 20px;
+    line-height: 2.0;
+    padding: 70px;
+  }
+  span {
+    background-color: rgb(177, 208, 179);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50px;
+  }
+}
+#page2 img:hover {
+  transform: scale(1.1);
+}
+.profile {
+  margin-right: 100px;
+  p {
+    font-size: 20px;
+    line-height: 2.0;
+    padding: 80px;
+  }
+  span {
+    background-color: rgb(177, 208, 179);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50px;
+  }
+}
+
+
+#page4 img:hover {
+  transform: scale(1.1);
+}
+.testimonials {
+  margin-right: 100px;
+  p {
+    font-size: 20px;
+    line-height: 2.0;
+    padding: 50px;
+  }
+  span {
+    background-color: rgb(177, 208, 179);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50px;
+  }
+}
+#page3 img:hover {
+  transform: scale(1.1);
+}
+.threecolumn {
+  margin-left: 100px;
+  p {
+    font-size: 20px;
+    line-height: 2.0;
+    padding: 50px;
+  }
+  span {
+    background-color: rgb(177, 208, 179);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50px;
+  }
+}
+#page5 img:hover {
+  transform: scale(1.1);
+}
+
+.socialproof {
+  margin-right: 100px;
+  p {
+    font-size: 20px;
+    line-height: 2.0;
+    padding: 50px;
+  }
+  span {
+    background-color: rgb(177, 208, 179);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50px;
+  }
+}
+
+#page6 img {
+  padding: 40px;
+}
+#page6 img:hover {
+  transform: scale(1.1);
+}
+
+#aboutme {
+  margin: 40px;
+  padding: 70px;
+
+  h2 {
+    font-size: 2.0em;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 100;
+  }
+  img {
+    border-radius: 50%;
+    margin-top: 50px;
+  }
+}
+footer {
+  background-color: rgb(160, 181, 163);
+}
+#contact {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  .info {
+    margin-left: 30px;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  .logo {
+    padding-bottom: 30px;
+  }
+  .web {
+    padding: 50px;
+  }
+  .web img:hover {
+    transform: scale(1.2);
+  }
+
+  p {
+   padding-top: 10px;
+  }
+  p a {
+    text-decoration: none;
+    color: rgb(15, 36, 16);
+  }
+
+  p a:hover {
+    color: white;
+  }
+}
+#form {
+  background: rgb(63, 75, 64);
+  color: white;
+  border-radius: 10px;
+  margin: auto auto 30px;
+  max-width: 800px;
+  padding: 30px 20px;
+  text-align: center;
+  width: 40%;
+  height: 50%;
+}
+.contact-form input {
+  display: block;
+  height: 30px;
+  width: 50%;
+  margin: 10px auto;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.contact-form textarea {
+  display: block;
+  height: 100px;
+  margin: auto;
+  width: 50%;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+.contact-form button {
+  background: rgb(118, 126, 118);
+  cursor: pointer;
+  font-size: 20px;
+  height: 30px;
+  width: 40%;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.copy {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 620px) {
+  body {
+    overflow-x: hidden;
+  }
+  .logo {
+    display: block;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    
+  }
+  #form {
+    width: auto;
+  }
+  .lola {
+    margin-top: 20px;
+    
+  }
+  nav {
+    position: static;
+    margin-bottom: 10px;  
+  }
+   .icon {
+    display: block;
+  }
+
+   .topnav { 
+    position: absolute;
+    right: 0;
+    top: 8vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92vh;
+    background-color: rgb(224, 230, 224);
+    margin-top: 50px;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .topnav li {
+    opacity: 0;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px,6px);
+  }
+ .toggle .line2 {
+ opacity: 0;
+ }
+ .toggle .line3 {
+   transform: rotate(45deg) translate(-5px,-6px);
+ }
+@keyframes navLinkFade {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    } 
+}
+ 
+
+
+
+  header {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .page {
+    display: flex;
+   flex-direction: column;
+  }
+  #contact {
+   display: flex;
+   flex-direction: column;
+
+  }
+  .business {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .profile {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .testimonials {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .threecolumn {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .socialproof {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+.intro {
+  margin-top: 50px;
+ h1 {
+   border-bottom: solid 5px currentColor;
+ }
+}
+
+.content {
+  margin: 40px;
+  .myphoto img {
+    display: block;
+    margin: auto;
+    width: 50%; 
+    border-radius: 5px;
+  }
+  p {
+    padding-top: 40px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+  }
+}
+/*Here is styling About page*/
+  #education {
+    margin-left: 50px;
+    h2 {
+      font-size: 2.0em;
+    }
+    .institution {
+      font-size: 28px;
+    }
+  }
+  #education li {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+    padding-left: 320px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin-bottom: 50px;
+  
+  }
+  
+  .dit {
+    background-image: url("../images/dit.png");
+
+  }
+  
+  .unilag {
+    background-image: url("../images/unilag.jpg");
+    background-size: auto;
+  }
+  #skills {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    h2 {
+    font-size: 2.0em;
+    }
+   h5 {
+      padding: 5px 10px;
+      background-color: rgb(3, 58, 3);
+      display: inline;
+      border-radius: 40px;
+      color: white;  
+    }
+  }
+  #language {
+    margin-left: 50px;
+    h2 {
+      font-size: 2.0em;
+    }
+    span {
+      padding: 5px 10px;
+      background-color: rgb(3, 58, 3);
+      border-radius: 40px;
+      color: white;
+      font-size: 15px;
+    }
+  }
+  #hobbies {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    h2 {
+      font-size: 2.0em;
+    }
+    h5 {
+      padding: 5px 10px;
+      background-color: rgb(3, 58, 3);
+      display: inline;
+      border-radius: 40px;
+      color: white;  
+    }
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+ 
+  
+   
