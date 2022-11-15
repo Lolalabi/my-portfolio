@@ -338,7 +338,7 @@ footer {
   font-weight: 400;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
       width: 100%;
@@ -369,7 +369,7 @@ footer {
     right: 0;
     top: 8vh; 
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     height: 92vh;
