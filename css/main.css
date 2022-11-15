@@ -669,6 +669,12 @@ footer {
     margin-right: 0;
     margin-left: 0;
   }
+  
+  
+  #education, #skills, #language {
+    margin: 0 20px 0 20px; 
+  }
+  
   #education li {
   list-style-type: none;
   padding-left: 0;
