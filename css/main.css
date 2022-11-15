@@ -579,13 +579,10 @@ footer {
   line-height: 1.5;
 }
 
-#projects {
-  margin: 0;
-}
+
 
 #aboutme {
-  margin: 0;
-  padding: 0;
+  padding: 20px;
 }
 
 /*Here is styling About page*/
