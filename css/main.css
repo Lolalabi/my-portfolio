@@ -435,7 +435,7 @@ footer {
     display: block;
   }
   .topnav {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 8vh;
     width: 100%;
