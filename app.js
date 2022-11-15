@@ -7,6 +7,7 @@ const navSlide = () => {
          //Toggle Nav
         nav.style.display = "flex";
          nav.classList.toggle('nav-active');
+        nav.style.display = "none";
 
          //Animate Links
          navLinks.forEach((link, index) => {
