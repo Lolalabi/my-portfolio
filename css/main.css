@@ -671,13 +671,18 @@ footer {
   }
   #education li {
   list-style-type: none;
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 50px;
   padding-left: 0;
   border-bottom: 1px solid;
   border-top: 1px solid;
   margin-bottom: 50px;
+}
+  
+  .dit {
+  background-image: none;
+}
+
+.unilag {
+  background-image: none;
 }
 
 #aboutme {
