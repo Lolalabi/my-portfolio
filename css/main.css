@@ -678,6 +678,7 @@ footer {
   #education li {
   list-style-type: none;
   padding-left: 0;
+  margin-left: 0;
   border-bottom: 1px solid;
   border-top: 1px solid;
   margin-bottom: 50px;
