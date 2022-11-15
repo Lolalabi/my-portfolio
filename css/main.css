@@ -410,6 +410,96 @@ footer {
   font-weight: 400;
 }
 
+
+
+/*Here is styling About page*/
+#education {
+  margin-left: 50px;
+}
+
+#education h2 {
+  font-size: 2.0em;
+}
+
+#education .institution {
+  font-size: 28px;
+}
+
+#education li {
+  list-style-type: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 300px;
+  padding-left: 320px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  margin-bottom: 50px;
+}
+
+.dit {
+  background-image: url("../images/dit.png");
+}
+
+.unilag {
+  background-image: url("../images/unilag.jpg");
+  background-size: auto;
+}
+
+#skills {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+#skills h2 {
+  font-size: 2.0em;
+}
+
+#skills h5 {
+  padding: 5px 10px;
+  background-color: #033a03;
+  display: inline;
+  border-radius: 40px;
+  color: white;
+}
+
+#language {
+  margin-left: 50px;
+}
+
+#language h2 {
+  font-size: 2.0em;
+}
+
+#language span {
+  padding: 5px 10px;
+  background-color: #033a03;
+  border-radius: 40px;
+  color: white;
+  font-size: 15px;
+}
+
+#hobbies {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+#hobbies h2 {
+  font-size: 2.0em;
+}
+
+#hobbies h5 {
+  padding: 5px 10px;
+  background-color: #033a03;
+  display: inline;
+  border-radius: 40px;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 15px;
+}
+
 @media screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
@@ -579,96 +669,17 @@ footer {
   line-height: 1.5;
 }
 
+.dit {
+    background-image: none;
 
+  }
+  
+  .unilag {
+    background-image: none;
+  }
 
 #aboutme {
   padding: 20px;
 }
 
-/*Here is styling About page*/
-#education {
-  margin-left: 50px;
-}
 
-#education h2 {
-  font-size: 2.0em;
-}
-
-#education .institution {
-  font-size: 28px;
-}
-
-#education li {
-  list-style-type: none;
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 300px;
-  padding-left: 320px;
-  border-bottom: 1px solid;
-  border-top: 1px solid;
-  margin-bottom: 50px;
-}
-
-.dit {
-  background-image: url("../images/dit.png");
-}
-
-.unilag {
-  background-image: url("../images/unilag.jpg");
-  background-size: auto;
-}
-
-#skills {
-  margin-left: 50px;
-  margin-bottom: 20px;
-}
-
-#skills h2 {
-  font-size: 2.0em;
-}
-
-#skills h5 {
-  padding: 5px 10px;
-  background-color: #033a03;
-  display: inline;
-  border-radius: 40px;
-  color: white;
-}
-
-#language {
-  margin-left: 50px;
-}
-
-#language h2 {
-  font-size: 2.0em;
-}
-
-#language span {
-  padding: 5px 10px;
-  background-color: #033a03;
-  border-radius: 40px;
-  color: white;
-  font-size: 15px;
-}
-
-#hobbies {
-  margin-left: 50px;
-  margin-bottom: 50px;
-}
-
-#hobbies h2 {
-  font-size: 2.0em;
-}
-
-#hobbies h5 {
-  padding: 5px 10px;
-  background-color: #033a03;
-  display: inline;
-  border-radius: 40px;
-  color: white;
-}
-
-.copyright {
-  text-align: center;
-  font-size: 15px;
-}
