@@ -500,6 +500,35 @@ footer {
   font-size: 15px;
 }
 
+.intro {
+  margin-top: 50px;
+}
+
+.intro h1 {
+  border-bottom: solid 5px currentColor;
+}
+
+.content {
+  margin: 40px;
+}
+
+.content .myphoto img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.content p {
+  padding-top: 40px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+
+
 @media screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
@@ -640,36 +669,7 @@ footer {
     margin-right: 0;
     margin-left: 0;
   }
-}
-
-.intro {
-  margin-top: 50px;
-}
-
-.intro h1 {
-  border-bottom: solid 5px currentColor;
-}
-
-.content {
-  margin: 40px;
-}
-
-.content .myphoto img {
-  display: block;
-  margin: auto;
-  width: 50%;
-  border-radius: 5px;
-}
-
-.content p {
-  padding-top: 40px;
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  line-height: 1.5;
-}
-
-.dit {
+  .dit {
     background-image: none;
 
   }
@@ -681,5 +681,10 @@ footer {
 #aboutme {
   padding: 20px;
 }
+}
+
+
+
+
 
 
