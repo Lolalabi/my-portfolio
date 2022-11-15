@@ -410,7 +410,7 @@ footer {
   font-weight: 400;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
     width: 100vw;
