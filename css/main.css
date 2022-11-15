@@ -669,14 +669,16 @@ footer {
     margin-right: 0;
     margin-left: 0;
   }
-  .dit {
-    background-image: none;
-
-  }
-  
-  .unilag {
-    background-image: none;
-  }
+  #education li {
+  list-style-type: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200px;
+  padding-left: 150px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  margin-bottom: 50px;
+}
 
 #aboutme {
   padding: 20px;
