@@ -5,6 +5,7 @@ const navSlide = () => {
    
     icon.addEventListener('click', () => {
          //Toggle Nav
+        nav.style.display = "flex";
          nav.classList.toggle('nav-active');
 
          //Animate Links
